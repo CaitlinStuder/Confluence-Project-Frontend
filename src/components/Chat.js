@@ -8,7 +8,7 @@ const Chat = ({descendingOrderMessages}) => {
                             <div className="img-container">
                                 <img src={message.img} alt={message.name + ' profile'}/>
                             </div>
-                            <p>{message.name}</p>
+                            <h3>{message.name}</h3>
                         </div>
                         <p>{message.message}</p>
                     </div>
