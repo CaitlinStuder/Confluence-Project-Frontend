@@ -24,4 +24,3 @@ const Chat = ({descendingOrderMessages}) => {
 }
 
 export default Chat
->>>>>>> Stashed changes
