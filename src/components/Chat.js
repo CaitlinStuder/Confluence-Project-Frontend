@@ -3,7 +3,7 @@ const Chat = ({descendingOrderMessages}) => {
         <>
             <div className="chat-display">
                 {descendingOrderMessages.map((message, _index) => (
-                    
+                
                     <div className="help" key={_index}>
                         <div className="chat-message-header">
                             
@@ -16,7 +16,6 @@ const Chat = ({descendingOrderMessages}) => {
                         </div>
                     
                     </div>
-                    
                 ))}
             </div>
         </>
