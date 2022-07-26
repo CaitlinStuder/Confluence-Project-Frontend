@@ -1,6 +1,9 @@
 {
   "name": "travel_front_end_project",
   "version": "0.1.0",
+  "engines": {
+    "node": "17.3.0"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
