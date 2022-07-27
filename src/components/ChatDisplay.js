@@ -12,7 +12,7 @@ const ChatDisplay = ({ user , clickedUser }) => {
 
     const getUsersMessages = async () => {
      try {
-            const response = await axios.get(`${process.env.SERVER_URL}/messages`, {
+            const response = await axios.get(`${process.env.REACT_APP_SERVER_URL}/messages`, {
                 params: { userId: userId, correspondingUserId: clickedUserId}
             })
          setUsersMessages(response.data)
@@ -23,7 +23,7 @@ const ChatDisplay = ({ user , clickedUser }) => {
 
     const getClickedUsersMessages = async () => {
         try {
-            const response = await axios.get(`${process.env.SERVER_URL}/messages`, {
+            const response = await axios.get(`${process.env.REACT_APP_SERVER_URL}/messages`, {
                 params: { userId: clickedUserId , correspondingUserId: userId}
             })
             setClickedUsersMessages(response.data)

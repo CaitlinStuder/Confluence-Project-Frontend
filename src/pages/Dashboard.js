@@ -16,7 +16,7 @@ const Dashboard = () => {
 
   const getUser = async () => {
       try {
-          const response = await axios.get(`${process.env.SERVER_URL}/user`, {
+          const response = await axios.get(`${process.env.REACT_APP_SERVER_URL}/user`, {
               params: {userId}
           })
           setUser(response.data)
@@ -27,7 +27,7 @@ const Dashboard = () => {
 
   const getGenderedUsers = async () => {
     try {
-        const response = await axios.get(`${process.env.SERVER_URL}/gendered-users`, {
+        const response = await axios.get(`${process.env.REACT_APP_SERVER_URL}/gendered-users`, {
             params: {gender: user?.gender_interest}
         })
         setGenderedUsers(response.data)
