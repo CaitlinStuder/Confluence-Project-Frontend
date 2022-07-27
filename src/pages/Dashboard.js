@@ -49,7 +49,7 @@ const Dashboard = () => {
 
   const updateMatches = async (matchedUserId) => {
     try {
-        await axios.put(`%SERVER_URL%/addmatch`, {
+        await axios.put(`${process.env.REACT_APP_SERVER_URL}/addmatch`, {
             userId,
             matchedUserId
         })
