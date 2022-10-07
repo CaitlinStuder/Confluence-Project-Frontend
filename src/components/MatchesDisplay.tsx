@@ -1,5 +1,6 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
+import React from "react";
+import { JSXElementConstructor, Key, ReactElement, ReactFragment, useEffect, useState } from "react";
 import { useCookies } from "react-cookie";
 
 const MatchesDisplay = ({ matches, setClickedUser }) => {
@@ -25,14 +26,14 @@ const MatchesDisplay = ({ matches, setClickedUser }) => {
   }, [matches]);
 
   const filteredMatchedProfiles = matchedProfiles?.filter(
-    (matchedProfile) =>
-      matchedProfile.matches.filter((profile) => profile.user_id == userId)
+    (matchedProfile: { matches: { filter: (arg0: (profile: any) => boolean) => { (): any; new(): any; length: number; }; }; }) =>
+      matchedProfile.matches.filter((profile: { user_id: any; }) => profile.user_id == userId)
         .length > 0
   );
 
   return (
     <div className="matches-display">
-      {filteredMatchedProfiles?.map((match, _index) => (
+      {filteredMatchedProfiles?.map((match: { url: string | undefined; first_name: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | null | undefined; }, _index: Key | null | undefined) => (
         <div
           key={_index}
           className="match-card"
