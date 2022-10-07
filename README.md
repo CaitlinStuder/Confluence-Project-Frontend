@@ -1,48 +1,43 @@
-# Confluence
+![Confluence Logo](https://i.imgur.com/uTbTtfK.png)
+============
+[![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/node-chat.svg)](https://github.com/jmars319/Confluence-Project-Frontend/issues) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/jmars319/Confluence-Project-Frontend) [![Backend](https://img.shields.io/badge/backend-see%20code-ff69b4)](https://github.com/jmars319/Confluence-Project-Backend)
 
-## Description
+This is a social media application inspired by tinder that provides focuses on prioritizing developing meaningful and influential connections all over the world. Whether it be bussines, romantic, or platonic, Confluence is the app for you. 
 
-Confluence is a free social networking platform similar to Tinder for users to connect and have conversations with one another. Users swipe right to match with users they would like to meet, and are able to open a chat in the sidebar. To access Confluence, users will need to create an account.
+![Home Preview](https://i.imgur.com/V5J4Se6.png)
+![Signup Preview](https://i.imgur.com/lSPfket.png)
+![Login Preview](https://i.imgur.com/ES6ZzIr.png)
+![Onboarding Preview](https://i.imgur.com/1ESIL1c.png)
+![Dashboard Preview](https://i.imgur.com/ZyjEMpr.png)
 
-## Set up and Requirement
+---
 
-Run npm i & npm start to install dependencies for the project.
 
-## :globe_with_meridians: Tech Used
+## Features
+- Private messaging
+- Filtered users
+- Matching with other users
+- Swiping
+- Stylish profile cards
+- Sign up page with personal information
+- Other awesome features yet to be implemented
 
-This is the frontend of the project, using create-react-app for initialization and using Axios for navigation.
 
-## :pushpin: Future plans
+---
 
-- Users will be able to edit and delete their profiles.
-- Users will be able to delete their matches.
+## Setup
+Clone this repo to your desktop and run `npm install` to install all the dependencies.
 
-## Credits
+You might want to look into `config.json` to make change the port you want to use.
 
-Jason Marshall [github](https://github.com/jmars319)
-Caitlin Studer [github](https://github.com/CaitlinStuder)
-Alejandro Martinez [github](https://github.com/1248AM-NCU)
+---
+
+## Usage
+After you clone this repo to your desktop, go to its root directory and run `npm install` to install its dependencies.
+
+Once the dependencies are installed, you can run  `npm start` to start the application. You will then be able to access it at localhost:3000
+
+---
 
 ## License
-
-MIT License
-
-Copyright (c) 2022 Confluence
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This project is licensed under the terms of the **MIT** license.
